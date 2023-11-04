@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    position: absolute;
+    width: 100%;
+    box-shadow: 1px 1px 9px #000
+}
+.logo-div{
+    font-size: 40px;
+    padding: 0px 20px ;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(118, 118, 236);
+}
+.todo-start{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.todo-container{
+    background-color: rgb(118, 118, 236);
+   width: 600px;
+    padding: 5px;
+    margin:  70px 15px;
+    text-align: center;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #000;   
+}
+.todo-heading{
+    background-color: rgb(159, 186, 221);
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+.todo-heading h1{
+    color: rgb(247, 247, 247);
+    padding-top: 4px;
+}
+.add-item{    
+    margin-top: 10px;
+    padding: 10px 0px;
+    margin: 0px 20px;   
+}
+.add-item input{
+    height: 35px;
+}
+.add-item input[type="text"]{
+    width: 80%;
+    border: 5px;
+    padding: 5px;
+    outline: none; 
+    font-size: 18px ;  
+    border-radius: 5px;
+}
+.add-item input:focus[type="text"]{
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid rgb(221, 215, 215);
+}
+.add-item input[type = "submit"]{
+    padding: 0px 10px;
+    background-color: rgb(118, 118, 236);
+    color: white;
+    border: 0px;
+    opacity: 0.8;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.add-item input[type = "button"]:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.list-item-start{
+    margin-top: 20px;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(233, 238, 233);
+    padding: 10px 35px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin:5px 20px;
+    text-align: center;
+    border-radius: 4px;
+}
+img{
+    width: 25px;
+    height: 25px;
+    opacity: 0.9;
+}
+img:hover{
+    opacity: 1;  
+}
+#list-start p{
+         width: 80%;
+         text-align: start;
+}
+.remove{
+    cursor: pointer;
+}
+
